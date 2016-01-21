@@ -1,0 +1,69 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    width: 50rem;
+    border: 2px solid #b30000;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+/* Header styles */
+
+header {
+    height: 12rem;
+}
+#madlib-happy-face {
+    float: left;
+    width: 25%;
+    height: inherit;
+    text-align: center;
+    border-right: 2px solid #b30000;
+}
+#madlib-logo {
+    float: right;
+    width: 74%;
+    height: inherit;
+    text-align: center;
+}
+#madlib-happy-face img {
+    height: 10rem;
+    padding-top: 1rem;
+}
+#madlib-logo img {
+    height: 7rem;
+    padding-top: 2.3rem;
+}
+
+/* General styles */
+
+section {
+    border-top: 2px solid #b30000;
+    padding: 1rem;
+}
+
+/* Section form-info */
+
+.form-info input {
+    margin: 0.25rem;
+    padding: 0.5rem;
+}
+.column-left {
+    float: left;
+    width: 33%;
+}
+.column-center {
+    display: inline-block;
+    width: 33%;
+}
+.column-right {
+    float: right;
+    width: 33%;
+}
+.mad-lib-input {
+    border-radius: 0.25rem;
+    border: 1px solid #C5C5C5;
+}
