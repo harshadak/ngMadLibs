@@ -4,7 +4,8 @@ angular.module('myApp', [])
         $rootScope.version = VERSION;
     })
     .controller('myCtrl', ['$scope', function ($scope) {
-        $scope.$watch('gender', function (genderOf) {
+        $scope.data = {};
+        $scope.$watch('data.gender', function (genderOf) {
             if (genderOf == 'male') {
                 $scope.nominativePronoun = 'he';
                 $scope.possessivePronoun = 'his';
@@ -15,4 +16,13 @@ angular.module('myApp', [])
                 $scope.objectivePronoun = 'her';
             }
         });
+        $scope.hideForm = false;
+        $scope.submit = function () {
+            $scope.hideForm = true;
+        }
+        $scope.reset = function () {
+            $scope.data = {};
+            $scope.hideForm = false;
+            $scope.submitted = false;
+        }
     }])

@@ -67,3 +67,38 @@ section {
     border-radius: 0.25rem;
     border: 1px solid #C5C5C5;
 }
+.form-info button {
+    margin: 1.5rem 0;
+    padding: 0.6rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border: none;
+}
+.form-info button:hover {
+    background-color: #b30000;
+    color: #fff;
+}
+
+/* Section madlibs-output */
+
+.madlibs-output p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.06rem;
+    margin: 1.5rem;
+}
+.madlibs-output .highlight {
+    font-weight: bold;
+    color: #b30000;
+}
+.madlibs-output button {
+    margin: 0 0 1.5rem 0;
+    padding: 0.6rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border: none;
+}
+.madlibs-output button:hover {
+    background-color: #b30000;
+    color: #fff;
+}
